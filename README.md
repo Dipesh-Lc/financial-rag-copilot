@@ -49,7 +49,7 @@ Run a small labeled evaluation workflow and load the latest results in the UI.
 ![Evidence Screenshot](assets/screenshots/evidence-page.png)
 
 ### Evaluation
-![Q&A Screenshot](assets/screenshots/qa-page.png)
+![Q&A Screenshot](assets/screenshots/eval-page.png)
 
 ## Stack
 
