@@ -1,0 +1,65 @@
+{
+  "q001": {
+    "reference_answer": "Apple discloses cybersecurity risks including potential data breaches, service disruptions, theft of intellectual property, and harm to its business, reputation, and financial condition.",
+    "key_points": [
+      "cybersecurity incidents may disrupt operations",
+      "data breaches may expose sensitive information",
+      "theft of intellectual property is a risk",
+      "cyber incidents may harm financial condition or reputation"
+    ],
+    "unacceptable_claims": [
+      "Apple reported a major cyberattack in the filing",
+      "Apple disclosed an exact number of cybersecurity incidents"
+    ]
+  },
+  "q002": {
+    "reference_answer": "Apple highlights supply chain risks including dependence on third-party manufacturing and logistics, component availability constraints, and disruptions from geopolitical or macroeconomic conditions.",
+    "key_points": [
+      "dependence on third-party suppliers or manufacturers",
+      "component shortages or availability risks",
+      "logistics or supply chain disruption",
+      "geopolitical or macroeconomic impacts on supply chain"
+    ],
+    "unacceptable_claims": []
+  },
+  "q003": {
+    "reference_answer": "Apple says adverse global and regional economic conditions can materially affect its business, operations, financial condition, and stock price.",
+    "key_points": [
+      "global and regional economic conditions matter",
+      "adverse conditions may materially affect business",
+      "financial condition may be harmed",
+      "stock price may be affected"
+    ],
+    "unacceptable_claims": []
+  },
+  "q004": {
+    "reference_answer": "Apple discusses changes in financial reporting standards including updates to segment expense disclosure requirements and accounting rules for internal-use software capitalization.",
+    "key_points": [
+      "segment expense disclosure changes",
+      "internal-use software capitalization changes",
+      "new accounting standards are discussed"
+    ],
+    "unacceptable_claims": []
+  },
+  "q005": {
+    "reference_answer": "Apple says adverse economic conditions can materially adversely affect its business, results of operations, financial condition, and stock price.",
+    "key_points": [
+      "adverse economic conditions can hurt business",
+      "results of operations may be affected",
+      "financial condition may be affected",
+      "stock price may be affected"
+    ],
+    "unacceptable_claims": []
+  },
+  "q006": {
+    "reference_answer": "The filing does not provide enough evidence to determine Apple's exact dividend yield as of last quarter.",
+    "key_points": [
+      "insufficient evidence",
+      "exact dividend yield cannot be determined from the filing"
+    ],
+    "unacceptable_claims": [
+      "Apple's exact dividend yield is 2.4%",
+      "the filing explicitly states the exact dividend yield"
+    ]
+  }
+}
