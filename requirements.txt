@@ -1,0 +1,45 @@
+# Core
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+
+# LangChain core + integrations
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-text-splitters>=0.2.0
+langchain-huggingface>=0.0.3
+langchain-chroma>=0.1.2
+
+# LLM providers — install the one(s) you need
+# At least one of the following must be installed:
+langchain-anthropic>=0.1.20         # for LLM_PROVIDER=anthropic (Claude)
+langchain-openai>=0.1.20            # for LLM_PROVIDER=openai    (GPT-4o etc.)
+langchain-google-genai>=1.0.0       # for LLM_PROVIDER=gemini    (Gemini 2.0)
+
+# Embeddings (provider-agnostic, always required)
+sentence-transformers>=2.7.0
+transformers>=4.40.0
+torch>=2.1.0
+
+# Vector DB
+chromadb>=0.5.0
+
+# Ingestion
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+sec-edgar-downloader>=5.0.0
+
+# UI
+gradio>=4.36.0
+
+# Evaluation
+rouge-score>=0.1.2
+
+# Dev / Testing
+pytest>=8.0.0
+pytest-cov>=5.0.0
+ipykernel>=6.29.0
+jupyter>=1.0.0

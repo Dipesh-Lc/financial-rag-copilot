@@ -1,0 +1,51 @@
+[
+  {
+    "id": "q001",
+    "question": "What cybersecurity risks does Apple disclose in its latest 10-K?",
+    "ticker": "AAPL",
+    "form_type": "10-K",
+    "category": "factual",
+    "expected_section": "Risk Factors"
+  },
+  {
+    "id": "q002",
+    "question": "What supply chain risks does Apple highlight in its latest 10-K?",
+    "ticker": "AAPL",
+    "form_type": "10-K",
+    "category": "risk_summary",
+    "expected_section": "Risk Factors"
+  },
+  {
+    "id": "q003",
+    "question": "What macroeconomic risks does Apple identify in its latest 10-K?",
+    "ticker": "AAPL",
+    "form_type": "10-K",
+    "category": "factual",
+    "expected_section": "Risk Factors"
+  },
+  {
+    "id": "q004",
+    "question": "What changes in financial reporting standards does Apple discuss in its latest 10-K?",
+    "ticker": "AAPL",
+    "form_type": "10-K",
+    "category": "comparative",
+    "expected_section": "Management's Discussion and Analysis"
+  },
+  {
+    "id": "q005",
+    "question": "What does Apple say about adverse economic conditions in its latest 10-K?",
+    "ticker": "AAPL",
+    "form_type": "10-K",
+    "category": "factual",
+    "expected_section": "Risk Factors"
+  },
+  {
+    "id": "q006",
+    "question": "What is Apple's exact dividend yield as of last quarter?",
+    "ticker": "AAPL",
+    "form_type": "10-Q",
+    "category": "insufficient_context",
+    "expected_section": "Management's Discussion and Analysis",
+    "note": "This should generally trigger an insufficient-context style answer."
+  }
+]
