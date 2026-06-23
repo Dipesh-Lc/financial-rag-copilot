@@ -32,6 +32,10 @@ logs/
 !data/eval/gold_answers.json
 !data/eval/retrieval_labels.json
 
+# Keep committed seed corpus for zero-setup demo
+!data/seed/
+!data/seed/**
+
 # Pytest
 .pytest_cache/
 .coverage
