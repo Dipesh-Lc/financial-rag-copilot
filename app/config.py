@@ -43,14 +43,14 @@ GOOGLE_API_KEY: str = os.getenv("GOOGLE_API_KEY", "")
 
 # ── LLM — provider / model ────────────────────────────────────────────────────
 # Supported providers: "anthropic" | "openai" | "gemini"
-LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "anthropic")
+LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "gemini")
 
 
 # Default models
 _DEFAULT_MODELS: dict[str, str] = {
     "anthropic": "claude-sonnet-4.6",
     "openai": "gpt-5.4-mini",
-    "gemini": "gemini-3-flash-preview",
+    "gemini": "gemini-2.5-flash",
 }
 
 LLM_MODEL_NAME: str = os.getenv(
