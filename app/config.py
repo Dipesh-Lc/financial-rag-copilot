@@ -32,6 +32,7 @@ METADATA_DIR = PROCESSED_DIR / "metadata"
 
 EVAL_DIR = DATA_DIR / "eval"
 CHROMA_PERSIST_DIR = DATA_DIR / os.getenv("CHROMA_PERSIST_DIR", "vectorstore/chroma")
+SEED_DIR = ROOT_DIR / "data" / "seed" / "cleaned_docs"
 
 LOG_DIR = ROOT_DIR / "logs"
 
@@ -129,6 +130,7 @@ class AppConfig:
     metadata_dir: Path = METADATA_DIR
     eval_dir: Path = EVAL_DIR
     chroma_persist_dir: Path = CHROMA_PERSIST_DIR
+    seed_dir: Path = SEED_DIR
     log_dir: Path = LOG_DIR
 
     # LLM
