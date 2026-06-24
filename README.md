@@ -12,7 +12,7 @@ pinned: false
 
 [![CI](https://github.com/Dipesh-Lc/financial-rag-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/Dipesh-Lc/financial-rag-copilot/actions/workflows/ci.yml)
 
-**Live demo:** _coming soon — deploy this Space on Hugging Face to add the link here_
+**Live demo:** https://dipeshklamichhane-financial-rag-copilot.hf.space — ask a question about a company's SEC filings and get a citation-grounded answer. (Hosted on a free CPU Space; first query after idle may take a few seconds to warm up.)
 
 Financial RAG Copilot is a RAG project for SEC filings. It downloads real EDGAR filings, parses and chunks them, indexes them in Chroma, answers filing-grounded questions with citations, and generates structured financial risk memos through a simple Gradio UI.
 
